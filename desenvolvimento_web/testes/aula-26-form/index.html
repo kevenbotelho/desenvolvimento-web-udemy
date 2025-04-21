@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>O radio é usado quando só pode ser selecionado um , o checkbox é usado quando pode selecionar mais de um</p>
+    <p>Select é usado quando a listagem é muito grande</p>
+    <h1>Login</h1>
+    <form action="processa.php" method="get">
+        <label for="vsc">Login</label>
+        <input type="text" name="prog" id="vsc">
+        <br> <br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha">
+        <br> <br>
+        <input type="submit" value="Logar">
+    </form>
+
+    <h2>Cadastre-se</h2>
+
+    <form action="">
+        <label for="login">Login</label>
+        <input type="email" name="login" id="login"> <br>
+        <label for="sexo">Masculino</label>
+        <input type="radio" name="sexo" id="" value="M">
+        <label for="sexo" >Femenino</label>
+        <input type="radio" name="sexo" id="" value="F">
+
+    <h2>Interesses</h2>
+    <label for="futebol">Futebol</label>
+    <input type="checkbox" name="futebol" id=""> <br>
+    <label for="cursos">Cursos</label>
+    <input type="checkbox" name="futebol" id="">
+
+    <h2>Estado</h2>
+        <select name="estado" id="">
+            <option value="sp">SP</option>
+            <option value="pa">PA</option>
+            <option value="es">ES</option>
+            <option value="rj">RJ</option>
+        </select>
+
+    <h2>Observações</h2>
+    <textarea name="" id=""></textarea>
+        <input type="submit" value="Cadastrar">
+</form>
+</body>
+</html>

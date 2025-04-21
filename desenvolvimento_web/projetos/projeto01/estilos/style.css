@@ -1,0 +1,26 @@
+body{
+    background-image: url(imagens/fundo2.png);
+
+    max-width: 800px;
+    padding: 30px 10px;
+    margin: auto;
+}
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+    padding-bottom: 20px
+}
+header nav ul li{
+    display: inline-block;
+
+    padding-right: 10px;
+}
+
+main div#imagem-principal{
+    max-width: 800px;
+}
+main div#imagem-principal img{
+    width: 100%;
+}
