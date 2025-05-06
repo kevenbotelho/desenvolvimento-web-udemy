@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+a{
+
+}
+a:hover{
+    background-color: white;
+    padding: 3px;
+    color: black;
+    border-radius: 10px;
+}
+body{
+    background-color: gray;
+}
+header{
+    background-color: rgb(243, 201, 62);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+
+    padding: 10px;
+}
+header h1{
+    text-align: center;
+}
+header nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul li{
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+main a{
+    color: goldenrod;
+    padding-bottom:  5px;
+}
+main a:hover{
+    background-color: none;
+    font-size: 18px;
+    color: goldenrod;
+    text-decoration: solid goldenrod;
+
+}
+main section#main{
+    width: 600px;
+}
+main section#main div.postagens{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+main section#main h2{
+    color: yellow;
+}
+main section#main p{
+    color: black;
+    padding-bottom: 20px;
+}
+main section#main img{
+    width: 100%;
+}
+
+
+
+
+
+main section#more{
+    margin-left: 20px;
+    width: 300px;
+}
+main section#more div#post-recente{
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+}
+main section#more div#post-recente h3{
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+main section#more div#post-recente p{
+    color: black;
+    padding-bottom: 5px;
+}
+main section#more div#post-recente p.leiamais{
+    color: rgb(165, 165, 0);
+    padding-bottom: 5px;
+}
+
+
+
+
+
+main section#more div#categorias{
+    margin-top: 20px;
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+}
+main section#more div#categorias h3{
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+main section#more div#categorias ul li{
+    color: goldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: lightgray;
+    text-align: center;
+
+    width: 920px;
+    margin: auto;
+}
+footer p{
+    color: black;
+}

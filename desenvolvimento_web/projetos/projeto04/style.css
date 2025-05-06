@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    list-style-type: none;
+}
+.branco{
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+}
+.more{
+    color: red;
+}
+header{
+    background-color: #294c71;
+    background-image: url("imagens/fundo.png");
+    background-position: left bottom;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    height: 200px;
+    padding: 20px;
+}
+header div#header_centralizada{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 900px;
+
+    background-image: url(imagens/detalhe-topo.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 150px;
+}
+header div#header_centralizada nav ul{
+    background-color: rgb(148, 0, 0);
+    margin-top: 20px;
+}
+header div#header_centralizada nav ul li{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    font-weight: bolder;
+}
+header div#header_centralizada nav ul li:hover{
+    background-color: lightblue;
+}
+
+
+
+
+
+main{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+main section#column-um , main section#column-dois, main section#column-tres{
+    background-image: url(imagens/fundo-caixa.png);
+    width: 300px;
+    margin: 15px;
+}
+main section h2{
+    background-color: #294c71;
+    color: white;
+    padding: 3px;
+}
+main section h3{
+    background-color: RED;
+    color: black;
+    display: inline;
+}
+main section img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+main section#column-um{
+    width: 200px;
+}
+main section#column-um ul{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+main section#column-um ul li{
+    padding: 5px;
+}

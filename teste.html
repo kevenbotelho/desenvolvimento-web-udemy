@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(fundo.jpg);
+            height: 100vh;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            width: 400px;
+            background-color: rgba(255, 255, 255, 0.24);
+
+            border-radius: 10px;
+        }
+        main img{
+            display: block;
+            margin: auto;
+            margin-top: -60px;
+            padding-bottom: 20px;
+            width: 100px;
+        }
+        main form{
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+        }
+        main form input{
+            padding: 8px;
+            margin-bottom: 5px;
+            border:none;
+        }
+        main form input[type="email"]{
+            background-image: url("icone-usuario.png");
+            background-position: 7px;
+            background-size: 15px;
+            background-repeat: no-repeat;
+            padding-left: 30px;
+            
+        }
+        main form input[type="password"]{
+            background-image: url("icone-cadeado.png");
+            background-position: 7px;
+            background-size: 15px;
+            background-repeat: no-repeat;
+            padding-left: 30px;
+            
+        }
+        main form input[type="submit"]{
+            background-image: linear-gradient(to bottom, #faa600, #f68a00);
+            border: 1px solid #db7d00;
+            border-radius: 5px;
+            color: white;
+            width: 210px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="perfil.png" alt="">
+        <form action="" method="post">
+            <input type="email" name="" id="" placeholder=" Digite seu e-mail">
+            <input type="password" name="" id="" placeholder="Digite sua senha">
+            <input type="submit" value="Logar">
+        </form>
+    </main>
+</body>
+</html>
