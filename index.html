@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(27, 29, 46);
+            color: white;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            align-items: center;
+        }
+        main{
+            border: 1px solid red;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        main h1{
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        main li{
+            list-style-type: none;
+            padding: 5px 0;
+        }
+        main li::before{
+            content: "\1F517 ";
+        }
+        main li a{
+            color: white;
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
-    <h1>Funcionou</h1>
+    <main>
+        <h1>Projetos de Keven Yuri</h1>
+        <ul>
+            <li><a href="desenvolvimento_web/projetos/projeto01/index.html"> Projeto01</a></li>
+            <li><a href="desenvolvimento_web/projetos/projeto02/index.html">Projeto02</a></li>
+            <li><a href="desenvolvimento_web/projetos/projeto03/index.html">Projeto03</a></li>
+            <li><a href="desenvolvimento_web/projetos/projeto04/index.html">Projeto04</a></li>
+            <li><a href="desenvolvimento_web/projetos/projeto05/index.html">Projeto05</a></li>
+            <li><a href="desenvolvimento_web/projetos/projeto06/index.html">Projeto06</a></li>
+            <li><a href="desenvolvimento_web/projetos/projeto07/index.html">Projeto07 - <strong>NÃO INICIADO</strong></a></li>
+        
+        </ul>
+    </main>
 </body>
 </html>
