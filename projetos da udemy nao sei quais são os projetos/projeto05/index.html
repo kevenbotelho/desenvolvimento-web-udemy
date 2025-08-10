@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            list-style-type: none;
+        }
+        header{
+            max-width: 700px;
+            margin: auto;
+
+            background-image: url(imagens/imagens/topo-imagem-principal.png);
+            background-position: top left;
+            background-repeat: no-repeat;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+
+            border: 1px solid red;
+        }
+        header div#logo{
+            width: 150px;
+            margin: 20px;
+        }
+        header div#logo img{
+            width: 100%;
+        }
+        header div#fundo_navegacao{
+            background-image: url(imagens/imagens/topo-imagem-lateral.png);
+            background-position: left top;
+            background-repeat: no-repeat;
+
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 10px;
+        }
+        header div#fundo_navegacao h2{
+            font-size: 15px;
+            margin: 20px 0;
+            padding: 20px 0;
+            border-top: 1px solid red;
+            border-bottom: 1px solid red;
+            line-height: 0px;
+            width: 300px;
+        }
+        header div#fundo_navegacao div#menu_depoimento{
+            display: flex;
+            flex-flow: row nowrap;
+
+            padding: 0px 60px;
+        }
+        header div#fundo_navegacao div#menu_depoimento nav{
+            padding: 20px;
+        }
+        header div#fundo_navegacao div#menu_depoimento div#depoimento{
+            max-width: 200px;
+        }
+        header div#fundo_navegacao div#menu_depoimento div#depoimento img{
+            width: 100%;
+        }
+
+
+
+
+        main{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+
+            max-width: 700px;
+            margin: auto;
+        }
+        main section{
+            max-width: 350px;
+            border: 1px solid;
+            padding: 10px;
+        }
+        main section#um h1{
+            font-size: 16px;
+        }
+        main section#dois div.informacao{
+            background-color: lightgray;
+            padding: 20px;
+            margin-top: -20px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        main section#dois div.informacao div.img{
+            max-width: 300px;
+        }
+        main section#dois div.informacao div.img img{
+            width: 100%;
+        }
+        main section#dois div.informacao p{
+            font-size: 13px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="imagens/imagens/logo.png" alt="logo">
+        </div>
+        <div id="fundo_navegacao">
+            <h2> Rio de Janeiro * São Paulo * Belo Horizonte</h2>
+            <div id="menu_depoimento">
+                <nav>
+                    <ul>
+                        <li>HOME</li>
+                        <li>HISTÓRIA</li>
+                        <li>IMPRENSA</li>
+                        <li>GASTRONOMIA</li>
+                        <li>CONTATO</li>
+                    </ul>
+                </nav>
+                <div id="depoimento">
+                    <img src="imagens/imagens/depoimento.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </header>
+
+
+
+
+
+    <main>
+        <section id="um">
+            <h1>Lorem ipsum dolor sit amet consectetur</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consectetur saepe impedit, deserunt exercitationem neque ex voluptatum similique molestiae voluptates iure adipisci esse facilis maxime? Minima tempore quia ipsum soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem incidunt repellendus ab, neque sint illum dolor, sunt, esse minus ipsum cupiditate. Recusandae corrupti possimus, minus molestias totam voluptatem similique odit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consectetur saepe impedit, deserunt exercitationem neque ex voluptatum similique molestiae voluptates iure adipisci esse facilis maxime? Minima tempore quia ipsum soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem incidunt repellendus ab, neque sint illum dolor, sunt, esse minus ipsum cupiditate. Recusandae corrupti possimus, minus molestias totam voluptatem similique odit.</p>
+            
+        </section>
+        <section id="dois">
+            <div class="informacao" style="margin-top: 0;">
+                <div class="img">
+                    <img src="imagens/imagens/apartamento.jpg" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti alias sint quaerat quis voluptatem illo molestiae?</p>
+            </div>
+            <div class="informacao">
+                <div class="img">
+                    <img src="imagens/imagens/apartamento.jpg" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti alias sint quaerat quis voluptatem illo molestiae?</p>
+            </div>
+            <div class="informacao">
+                <div class="img">
+                    <img src="imagens/imagens/apartamento.jpg" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti alias sint quaerat quis voluptatem illo molestiae?</p>
+            </div>
+            <div class="informacao">
+                <div class="img">
+                    <img src="imagens/imagens/apartamento.jpg" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti alias sint quaerat quis voluptatem illo molestiae?</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
